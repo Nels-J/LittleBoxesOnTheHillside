@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+}
+/* Horizontal Navigation Bar */
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(98, 98, 98);
+}
+
+.topnav li {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 30px 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav li:hover {
+  background-color: lightgrey;
+  color: black;
+  font-size: 21px;
+}
+
+.topnav li.active {
+  background-color: black;
+  color: white;
+  font-size: 21px;
+}
+
+  .topnav.responsive li {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+/* Carousel Section */
+
+
+/* Title h2 Section */
+
+h2{
+    text-align: center;
+    font-size: 35px;
+    color:rgb(98, 98, 98);
+}
+
+h2 span{
+    font-size: 25px;
+    color: rgb(153, 153, 153);
+}
+
+
+/* Article Section */
+
+#articles{
+    margin: auto;
+    width:90%;
+}
+
+article{
+    display:inline-block;
+    background-color: lightgrey;
+    padding: 5px;
+
+    width: 30%;
+    height: 200px;
+}
+
+
+/* Form area */
+form{
+    border-top: 1px solid black;
+    margin: 2%;
+    width: 98%;
+    text-align: center;
+}
+
+form h2{
+    text-align: left;
+
+}
+
+input,textarea{
+    width: 80%;
+    margin: 1em;
+                
+}
+
